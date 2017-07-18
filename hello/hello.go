@@ -4,8 +4,11 @@ import (
 	"fmt"
 
 	"github.com/robyerts/goTest/stringutil"
+
+	"github.com/robyerts/goTest/myPackage"
 )
 
 func main() {
-	fmt.Printf(stringutil.Reverse("!oG ,olleH"))
+	fmt.Println(stringutil.Reverse("!oG ,olleH"))
+	fmt.Println(myPackage.Mee())
 }
